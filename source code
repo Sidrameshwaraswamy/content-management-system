@@ -1,0 +1,283 @@
+
+
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<TITLE>Content Management System using - HTML, CSS, Java Script, PHP</TITLE>
+	<META NAME="description" CONTENT="Pixels is an advanced content management system and it has abilities to serve different types of websites. You could create and update your website without any knowledge of programming languages.">
+	<META NAME="keywords" CONTENT="Web, Templates, design, designer">
+	<META http-equiv="Content-Type" CONTENT="text/html; charset=utf-8">
+	<META NAME="viewport" CONTENT="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<LINK REL="stylesheet" TYPE="text/css" HREF="../../css/style.css">
+	<LINK REL="stylesheet" TYPE="text/css" HREF="../../css/shared.css">
+	<SCRIPT TYPE="text/javascript" SRC="../../js/jquery-1.11.3.min.js"></SCRIPT>
+	<SCRIPT TYPE="text/javascript" SRC="../../js/shared.js"></SCRIPT>
+	
+	<link rel="stylesheet" href="../../plugins/gallery/magnific-popup.css">
+	<script src="../../plugins/gallery/jquery.magnific-popup.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.pageGalleryImg').magnificPopup({
+			delegate: 'a',
+			type: 'image', 
+			gallery:{
+				enabled: true
+			}, 
+			removalDelay: 300,
+			mainClass: 'mfp-fade', 
+			preloader: true
+		});
+	});
+	</script>
+	
+</HEAD>
+<BODY>
+
+<div id="header">
+	<div class="logo">Web Development</div>
+		<nav>
+		<UL>
+			<LI><A HREF="https://www.hristokaraivanov.com/">Home</A></LI>
+			<LI class="openme"><A HREF="https://www.hristokaraivanov.com/web-services/" class="selected">Web Services</A>
+				<UL>
+					<LI><A HREF="https://www.hristokaraivanov.com/web-services/website-design/">Website Design</A></LI>
+					<LI><A HREF="https://www.hristokaraivanov.com/web-services/content-management-systems/" class="subselected">Content Management Systems</A></LI>
+					<LI><A HREF="https://www.hristokaraivanov.com/web-services/crm-systems/">Customer Relationship Management Systems</A></LI>
+					<LI><A HREF="https://www.hristokaraivanov.com/web-services/single-page-apps/">Single Page Apps</A></LI>
+					<LI><A HREF="https://www.hristokaraivanov.com/web-services/landing-page-design/">Landing Page Design</A></LI>
+					<LI><A HREF="https://www.hristokaraivanov.com/web-services/html-emails/">HTML Emails</A></LI>
+				</UL>
+			</LI>
+			<LI><A HREF="https://www.hristokaraivanov.com/web-projects/">Web Projects</A></LI>
+			<LI><A HREF="https://www.hristokaraivanov.com/web-news/">News</A></LI>
+			<LI><A HREF="https://www.hristokaraivanov.com/contact/">Contact</A></LI>
+		</UL>
+	</nav>
+	<div id="openMenuContainer">
+		<a href="#" onclick="return false;" class="openMenuButton">
+			<span class="bar1"></span>
+			<span class="bar2"></span>
+			<span class="bar3"></span>
+		</a>
+	</div></div>
+
+<div class="sectionContainer">
+
+<div class="tinner">
+
+	<h1 class="scrollTitle">Content Management Systems</h1>
+	
+	<p>I created <b>Pixels</b> - a content management system and it has abilities to serve different types of websites. You could create and update your website without any knowledge of programming languages. The website types currently supported are:</p>
+	
+	<ul>
+		<li>Basic website</li>
+		<li>Basic plus News</li>
+		<li>E-Commerce website</li>
+		<li>E-Commerce plus News</li>
+		<li>E-Hotel website</li>
+		<li>E-Hotel plus News</li>
+	</ul>
+
+	<h2>Front-end</h2>
+
+	<p class="pageGalleryImg" style="float: none; margin: 0 auto;">
+		<a href="../../images/shopHomeScreen.jpg">
+			<img src="../../images/shopHomeScreen.jpg" class="fullWidth">
+		</a>
+	</p>
+	
+	<p class="pageGalleryImg" style="float: none; margin: 0 auto;">
+		<a href="../../images/shopProductsScreen.jpg">
+			<img src="../../images/shopProductsScreen.jpg" class="fullWidth">
+		</a>
+	</p>
+	
+	<h2 class="clear">Description of the modules</h2>
+
+	<p><b>Basic website</b></p>
+
+	<p>The basic website module could be corporate website, a small business website or personal website. Key features:<p>
+	
+	<ul>
+		<li>Unlimited number of webpages</li>
+		<li>Unlimited number of images</li>
+		<li>Mobile friendly</li>
+		<li>Drop-down header menu</li>
+		<li>Footer menu</li>
+		<li>Landing pages generator</li>
+		<li>Files manager, files organizer into folders, drag and drop files directly from your browser into server's folders, drag and drop files from one folder into another</li>
+		<li>Image sets uploader, two types of images sets, slider and gallery, drag dnd drop images directly from your browser. Drag and drop images to reorder.</li>
+		<li>User account manager</li>
+		<li>Website settings, logo, slogan, social network links</li>
+		<li>Contract form and inbox with new emails notifications</li>
+	</ul>
+	
+	<p class="pageGalleryImg">
+		<a href="../../images/basicPixelsScreen.jpg">
+			<img src="../../images/basicPixelsScreen.jpg" class="fullWidth">
+			<span class="imgCaption">CMS, Main Pages</span>
+		</a>
+	</p>
+	
+	<p class="pageGalleryImg">
+		<a href="../../images/pixelsManager1.jpg">
+			<img src="../../images/pixelsManager1.jpg" class="fullWidth">
+			<span class="imgCaption">CMS, drag and drop files directly from your browser into server's folders</span>
+		</a>
+	</p>
+	
+	<h2 class="clear">E-Commerce module</h2>
+	
+	<p>This module turns the website into a full featured web shop.</p>
+	
+	<ul>
+		<li>Shopping cart</li>
+		<li>Checkout pop-up</li>
+		<li>Unlimited number of categories and subcategories ordered into a drop-down menu</li>
+		<li>Unlimited number of products</li>
+		<li>Back end new orders notifications</li>
+	</ul>
+	
+	<p class="pageGalleryImg">
+		<a href="../../images/shopCartScreen.jpg">
+			<img src="../../images/shopCartScreen.jpg" class="fullWidth">
+			<span class="imgCaption">E-Commerce Website, Shopping Cart</span>
+		</a>
+	</p>
+	
+	<p class="pageGalleryImg">
+		<a href="../../images/shopPixelsScreen.jpg">
+			<img src="../../images/shopPixelsScreen.jpg" class="fullWidth">
+			<span class="imgCaption">CMS, Products Screen</span>
+		</a>
+	</p>
+	
+	<h2 class="clear">E-Hotel module</h2>
+	
+	<p>If you have a hotel or a guest house and you need a website with rooms reservation system, then this module is for you.</p>
+
+	<ul>
+		<li>Unlimited room types with prices</li>
+		<li>Reservation pop-up with total price calculation upon number of nights and room's price</li>
+		<li>Check-in and check-out drop-down calendar</li>
+		<li>Back end new reservations notifications</li>
+	</ul>
+	
+	<p class="pageGalleryImg" style="float: none; margin: 0 auto;">
+		<a href="../../images/hotelHomeScreen.jpg">
+			<img src="../../images/hotelHomeScreen.jpg" class="fullWidth">
+			<span class="imgCaption">Hotel website</span>
+		</a>
+	</p>
+	
+	<p class="pageGalleryImg">
+		<a href="../../images/imagesPopup.jpg">
+			<img src="../../images/imagesPopup.jpg" class="fullWidth">
+			<span class="imgCaption">CMS, Images popup</span>
+		</a>
+	</p>
+	
+	<p class="pageGalleryImg">
+		<a href="../../images/hotelReservations.jpg">
+			<img src="../../images/hotelReservations.jpg" class="fullWidth">
+			<span class="imgCaption">CMS, Reservations Screen with Notifications Popup</span>
+		</a>
+	</p>
+	
+	<h2 class="clear">News module</h2>
+
+	<p>This is an additional module to the basic website to be able to frequently add updates and news.</p>
+
+	<ul>
+		<li>Unlimited number of topics</li>
+		<li>Unlimited number of articles</li>
+	</ul>
+	
+	<p class="pageGalleryImg">
+		<a href="../../images/newsScreen.jpg">
+			<img src="../../images/newsScreen.jpg" class="fullWidth">
+			<span class="imgCaption">News Home Page Module</span>
+		</a>
+	</p>
+	
+	<p class="pageGalleryImg">
+		<a href="../../images/imagesUpload.jpg">
+			<img src="../../images/imagesUpload.jpg" class="fullWidth">
+			<span class="imgCaption">Images Uploading Process</span>
+		</a>
+	</p>
+	
+	<h2 class="clear">Technologies used</h2>
+	
+	
+	
+</div>
+  
+</div>
+
+<DIV class="scrollTo sectionContainer homeContacts">
+
+<!-- START contactSection -->
+<DIV Class="contactSection">
+
+<H2 Class="HristoKaraivanovCont">Quick Contacts</H2>
+
+<p Class="HristoKaraivanovCont"><b>Hristo Karaivanov</b><br>
+Sofia, Bulgaira<br>
+h_karaivanov@yahoo.com</p>
+
+<p Class="HristoKaraivanovCont"><A HREF="https://www.hristokaraivanov.com/contact/"><IMG SRC="../../images/hristokaraivanov.jpg" ALT="Hristo Karaivanov" Id="HristoKaraivanovImg"></A></p>
+ 
+</DIV>
+<!-- END contactSection -->
+
+<!-- START contactSection -->
+<DIV Class="contactSection">
+
+<H2>Services</H2>
+
+<UL>
+	<LI><A HREF="https://www.hristokaraivanov.com/web-services/website-design/">Website Design</A></LI>
+	<LI><A HREF="https://www.hristokaraivanov.com/web-services/content-management-systems/">Content Management Systems</A></LI>
+	<LI><A HREF="https://www.hristokaraivanov.com/web-services/crm-systems/">Customer Relationship Management Systems</A></LI>
+	<LI><A HREF="https://www.hristokaraivanov.com/web-services/single-page-apps/">Single Page Apps</A></LI>
+	<LI><A HREF="https://www.hristokaraivanov.com/web-services/landing-page-design/">Landing Page Design</A></LI>
+	<LI><A HREF="https://www.hristokaraivanov.com/web-services/html-emails/">HTML Emails</A></LI>
+</UL>
+ 
+</DIV>
+<!-- END contactSection -->
+
+<!-- START contactSection -->
+<DIV Class="contactSection">
+
+<H2>Stay In Touch</H2>
+
+<p>Follow me. Don't miss important updates.</p>
+
+<p Class="stayContainer">
+<a href="https://www.hristokaraivanov.com/contact/" class="stay" id="email" title="Send me email">Send me email</a></p>
+
+<p Class="stayContainer">
+<a href="http://www.hristokaraivanov.com/xml/news.xml" target="_blank" class="stay" id="rss" title="RSS Feed">RSS Feed</a></p>
+
+<p Class="stayContainer">
+<a href="https://bg.linkedin.com/in/hristokaraivanov" target="_blank" class="stay" id="linkedin" title="Follow me on LinkedIn">Follow me on LinkedIn</a></p>
+
+<p Class="clear">&nbsp;</p>
+ 
+</DIV>
+<!-- END contactSection -->
+
+<DIV Class="clear">&nbsp;</DIV>
+
+</DIV>
+<div id="bottom">
+	<p Id="validation">
+	</p>
+	<p class="clear"></p>
+</div>
+</BODY>
+</HTML>
